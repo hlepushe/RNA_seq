@@ -20,3 +20,6 @@ mkdir -p "$outdir"
 
    SBATCH --output=/esafronicheva/rna_seq/slurm_logs/umi_collapse_%A_%a.out  
    SBATCH --error=/esafronicheva/rna_seq/slurm_logs/umi_collapse_%A_%a.err
+04.12.25
+сделала фaйл fastqc_before для оценки качества ридов до всего и проверки работы слёрма и путей. на картинке доступные окружения.
+<img width="2100" height="662" alt="image" src="https://github.com/user-attachments/assets/13f02367-30d2-4b6c-a757-a9cb75bb3a6f" />
