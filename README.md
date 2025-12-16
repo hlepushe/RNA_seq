@@ -36,7 +36,7 @@ mkdir -p "$outdir"
 
 переделала файл 01_umi_collapse.sh, чтобы работал на процессорах и с моими путями, ДОБАВЛЕН В РЕПОЗИТОРИЮ запуск:
 ```
-sbatch 01_umi_collapse.sh. 
+sbatch 01_umi_collapse.sh
 ```
 в итоге есть файлы в папке umi_collapse 3 файла на каждый образец RNA_S15470Nr9.1.addedumi.fastq, RNA_S15470Nr9.1.dedup.fastq, RNA_S15470Nr9.1.dedup.woumi.fastq
 
