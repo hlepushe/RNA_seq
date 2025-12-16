@@ -33,7 +33,11 @@ mkdir -p "$outdir"
 ничего не работало.
 
 16.12.25
-переделала файл 01_umi_collapse.sh, чтобы работал на процессорах и с моими путями, ДОБАВЛЕН В РЕПОЗИТОРИЮ. 
-в итоге есть файлы в папке umi_collapse 3 файла на каждыйобразец RNA_S15470Nr9.1.addedumi.fastq, RNA_S15470Nr9.1.dedup.fastq, RNA_S15470Nr9.1.dedup.woumi.fastq
+
+переделала файл 01_umi_collapse.sh, чтобы работал на процессорах и с моими путями, ДОБАВЛЕН В РЕПОЗИТОРИЮ запуск:
+```
+sbatch 01_umi_collapse.sh. 
+```
+в итоге есть файлы в папке umi_collapse 3 файла на каждый образец RNA_S15470Nr9.1.addedumi.fastq, RNA_S15470Nr9.1.dedup.fastq, RNA_S15470Nr9.1.dedup.woumi.fastq
 
 все процессы заняли около 2х часов 
