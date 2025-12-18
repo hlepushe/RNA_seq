@@ -41,3 +41,7 @@ sbatch 01_umi_collapse.sh
 в итоге есть файлы в папке umi_collapse 3 файла на каждый образец RNA_S15470Nr9.1.addedumi.fastq, RNA_S15470Nr9.1.dedup.fastq, RNA_S15470Nr9.1.dedup.woumi.fastq
 
 все процессы заняли около 2х часов 
+
+17.12.25
+
+Запуск 02_umi_collapse2.sh и 03_fastqc.sh, фасткуси бежал оч долго, потом мультикуси в репозитории. Файлы приложены. 
