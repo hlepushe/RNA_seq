@@ -4,7 +4,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --partition=long
-#SBATCH --time=08:00:00
+#SBATCH --time=12:00:00
 #SBATCH --array=1-36
 #SBATCH --output=/mnt/projects/esafronicheva/rna_seq/slurm_logs/star_%A_%a.out
 #SBATCH --error=/mnt/projects/esafronicheva/rna_seq/slurm_logs/star_%A_%a.err
