@@ -57,6 +57,6 @@ sbatch 01_umi_collapse.sh
 
 11.03.26 
 
-Выравнивание сырых данных рибодиплеции по аналогии с РНК-секом. Референс тот же, скрипты те же, но в папке ~esafronicheva/ribodepletion_betula. 
+Выравнивание сырых данных рибодиплеции по аналогии с РНК-секом. Референс тот же, скрипты те же, но в папке ~esafronicheva/ribodepletion_betula. Индексация и запуск salmon (salmon_index.sh и 05_salmon_quantification.sh) , но получился низкий процент выравнивания (4-8%). 
 
 
