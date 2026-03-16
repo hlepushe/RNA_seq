@@ -60,7 +60,7 @@ sbatch 01_umi_collapse.sh
 Выравнивание сырых данных рибодиплеции по аналогии с РНК-секом. Референс тот же, скрипты те же, но в папке ~esafronicheva/ribodepletion_betula. Индексация и запуск salmon (salmon_index.sh и 05_salmon_quantification.sh), процент выравнивания около 4-7%. Запуск Салмон на "сырых" ридах (папка выход quantification_ribo_raw), получилось выравнивание около 40% (Нет umi в "сырых" ридах?).
 
 16.03.25 
-Запуск Салмон на РНК-сек данных на "сырых" ридах (папка вход 01_fastq) папка выход quantification_pendula_raw.  
+Запуск Салмон на РНК-сек данных на "сырых" ридах (папка вход 01_fastq, файл запуска salmon_quantification_raw.sh) папка выход quantification_pendula_raw.  
 
 
 
