@@ -62,5 +62,8 @@ sbatch 01_umi_collapse.sh
 16.03.25 
 Запуск Салмон на РНК-сек данных на "сырых" ридах (папка вход 01_fastq, файл запуска salmon_quantification_raw.sh) папка выход quantification_pendula_raw.  
 
+18.03.26
+
+Новое окружение 'new-salmon' для более новой версии, которая поддерживает обработку ридов с umi. 
 
 
